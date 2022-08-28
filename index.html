@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-dinning">
+        <li class="text">Dinning</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-kitchen">
+        <li class="text">Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-steps-to-berooms">
+        <li class="text">Steps to berooms</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-corridor">
+        <li class="text">Corridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-sitting-room">
+        <li class="text">Sitting room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-bathroom">
+        <li class="text">Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-bedroom-1">
+        <li class="text">Bedroom 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-bedroom-2">
+        <li class="text">Bedroom 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-veranda---close">
+        <li class="text">Veranda - close</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-veranda---far">
+        <li class="text">Veranda - far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-new-building-area---close">
+        <li class="text">New building area - close</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-new-building-area---far">
+        <li class="text">New building area - far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-over-garage---by-the-chapel">
+        <li class="text">Over garage - by the chapel</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-chapel">
+        <li class="text">Chapel</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-chapel-entrance">
+        <li class="text">Chapel entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-chapel-main-room">
+        <li class="text">Chapel main room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-new-buildings-area---road">
+        <li class="text">New buildings area - road</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-steps-to-bell">
+        <li class="text">Steps to bell</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-2-bed-house-view">
+        <li class="text">2 Bed house view</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-1-bed-house">
+        <li class="text">1 Bed house</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-hall">
+        <li class="text">Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-bathroom">
+        <li class="text">Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-bedroom">
+        <li class="text">Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-sitting--dinning">
+        <li class="text">Sitting / dinning</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-kitchen">
+        <li class="text">Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-patio">
+        <li class="text">Patio</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-winery">
+        <li class="text">Winery</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-winery-auxiliary-room">
+        <li class="text">Winery auxiliary room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-events-room">
+        <li class="text">Events room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-events-room-pantry">
+        <li class="text">Events room pantry</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-events-room-wc">
+        <li class="text">Events room wc</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-events-room---far">
+        <li class="text">Events room - far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-events-room-view">
+        <li class="text">Events room view</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-entrance---5">
+        <li class="text">Entrance - 5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-parking-spaces">
+        <li class="text">Parking spaces</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-parking---far">
+        <li class="text">Parking - far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-rear-1---buildings">
+        <li class="text">Rear 1 - buildings</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-rear-2---buildings">
+        <li class="text">Rear 2 - buildings</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-path-1">
+        <li class="text">Path 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-path-2">
+        <li class="text">Path 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-path-3">
+        <li class="text">Path 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-path-4">
+        <li class="text">Path 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-garage---farm">
+        <li class="text">Garage - farm</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-garage-farm-close">
+        <li class="text">Garage farm close</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-garage-farm-far">
+        <li class="text">Garage farm far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-path-to-garage---2">
+        <li class="text">Path to garage - 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-path-to-garage---1">
+        <li class="text">Path to garage - 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-entrance-4">
+        <li class="text">Entrance 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-entrance-3">
+        <li class="text">Entrance 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-entrance-2">
+        <li class="text">Entrance 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-entrance-1">
+        <li class="text">Entrance 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-main-gate">
+        <li class="text">Main gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-side-door---out">
+        <li class="text">Side door - out</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-side-door---in">
+        <li class="text">Side door - in</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-perimeter-walk-1">
+        <li class="text">Perimeter walk 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-perimeter-walk-2">
+        <li class="text">Perimeter walk 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-perimeter-walk-3">
+        <li class="text">Perimeter walk 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-perimeter-walk-4">
+        <li class="text">Perimeter walk 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-cross-roads">
+        <li class="text">Cross roads</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-road-to-2nd-gate">
+        <li class="text">Road to 2nd gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-2nd-gate-inside">
+        <li class="text">2nd Gate inside</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-perimeter-walk-5">
+        <li class="text">Perimeter walk 5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-perimeter-walk-6">
+        <li class="text">Perimeter walk 6</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-perimeter-walk-7">
+        <li class="text">Perimeter walk 7</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-perimeter-walk-8">
+        <li class="text">Perimeter walk 8</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-perimeter-walk-9">
+        <li class="text">Perimeter walk 9</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66-perimeter-walk-10">
+        <li class="text">Perimeter walk 10</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-perimeter-walk-11">
+        <li class="text">Perimeter walk 11</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="68-perimeter-walk-12">
+        <li class="text">Perimeter walk 12</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="69-perimeter-walk-13">
+        <li class="text">Perimeter walk 13</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="70-perimeter-walk-14">
+        <li class="text">Perimeter walk 14</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="71-perimeter-walk-15">
+        <li class="text">Perimeter walk 15</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="72-perimeter-walk-16">
+        <li class="text">Perimeter walk 16</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="73-perimeter-walk-17">
+        <li class="text">Perimeter walk 17</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="74-perimeter-walk-18">
+        <li class="text">Perimeter walk 18</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="75-perimeter-walk-19">
+        <li class="text">Perimeter walk 19</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="76-perimeter-walk-20">
+        <li class="text">Perimeter walk 20</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="77-perimeter-walk-21">
+        <li class="text">Perimeter walk 21</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="78-perimeter-walk-22">
+        <li class="text">Perimeter walk 22</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="79-perimeter-walk-23">
+        <li class="text">Perimeter walk 23</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="80-perimeter-walk-24">
+        <li class="text">Perimeter walk 24</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="81-perimeter-walk-25">
+        <li class="text">Perimeter walk 25</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="82-perimeter-walk-26">
+        <li class="text">Perimeter walk 26</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="83-perimeter-walk-27">
+        <li class="text">Perimeter walk 27</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="84-perimeter-walk-28">
+        <li class="text">Perimeter walk 28</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="85-cross-roads">
+        <li class="text">Cross roads</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="86-water-tank">
+        <li class="text">Water tank</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="87-end-of-road">
+        <li class="text">End of road</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="88-perimeter-walk-29">
+        <li class="text">Perimeter walk 29</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="89-perimeter-walk-30">
+        <li class="text">Perimeter walk 30</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="90-perimeter-walk-31">
+        <li class="text">Perimeter walk 31</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="91-outside-across-road---gate">
+        <li class="text">Outside across road - gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="92-front-road---midway">
+        <li class="text">Front road - midway</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
